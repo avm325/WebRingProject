@@ -63,19 +63,19 @@ body{
     background-color: bisque;
 
 }
-.shell2{
+.shell1{
     grid-row: 5;
     grid-column: 4/7;
     scale: 80%;
 
 }
-.shell3{
+.shell2{
     grid-row: 5;
     grid-column: 7/10;
     scale: 80%;
 
 }
-.shell4{
+.shell3{
     grid-row: 5;
     grid-column: 10/13;
     scale: 80%;
