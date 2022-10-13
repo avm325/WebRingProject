@@ -3,7 +3,7 @@
 }
 
 body{
-    background: linear-gradient(#A5FAB3,#9BEBA8,#8AD196,#71AB7A,#476B4D);
+    background: linear-gradient(#A9BD93,#9BEBA8,#9AC791,#71AB7A,#8ABD91);
 
 }
 .container{
@@ -23,12 +23,16 @@ body{
     font-size: 2em;
 
 }
+div.shadowR{
+    grid-column: 1/6;
+    grid-row: 1;
+}
 .title{
     text-align: center;
-    padding-top: 5em;
+    padding-top: 9em;
     grid-row: 1;
     grid-column: 1/13;
-    font-size: 3em;
+    font-size: 2em;
 
 }
 .leafbuttonR{
@@ -50,18 +54,20 @@ body{
     grid-row: 2;
     grid-column: 4/10;
     background-color: beige;
+    opacity: 40%;
 }
 .text2{
     text-align: center;
     grid-row: 3;
     grid-column: 4/10;
     background-color: grey;
+    opacity: 40%;
 }
 .text3{
     grid-row: 4;
     grid-column: 4/10;
     background-color: bisque;
-
+    opacity: 40%;
 }
 .shell1{
     grid-row: 5;
@@ -88,6 +94,7 @@ body{
     grid-column: 4/10;
     background-color: antiquewhite;
     z-index: 1;
+    opacity: 40%;
 }
 
 .wildflower{
@@ -97,25 +104,28 @@ body{
 }
 .wildflower2{
     grid-row: 6;
-    grid-column: 7/10;
-    scale: 50%;
+    grid-column: 8/13;
+    scale: 57%;
+    transform: rotate(0deg);
 
 }
 .bee{
-    grid-row: 6;
-    grid-column: 10/13;
-    scale: 50%;
-    transform: rotate(-70deg);
+    grid-row: 5/7;
+    grid-column: 2/4;
+    scale: 30%;
+    transform: rotate(30deg);
 }
 .text5{
     grid-row: 7;
     grid-column: 4/10;
     background-color: azure;
+    opacity: 40%;
 }
 .text6{
     grid-row: 8;
     grid-column: 4/10;
     background-color: aliceblue;
+    opacity: 40%;
 }
 
 .footer{
@@ -131,7 +141,9 @@ h2{
 }
 
 h1{
-    font-family: 'Mukta Mahee', sans-serif; 
+    font-family: mina,serif;
+    font-weight: 400;
+    font-style: normal; 
     color: white;
 
 }
