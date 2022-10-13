@@ -24,8 +24,11 @@ body{
 
 }
 div.shadowR{
-    grid-column: 1/6;
+    grid-column: 1/4;
     grid-row: 1;
+    scale: 40%;
+    position: relative;
+
 }
 .title{
     text-align: center;
@@ -33,14 +36,14 @@ div.shadowR{
     grid-row: 1;
     grid-column: 1/13;
     font-size: 2em;
-
+    z-index: 1;
 }
 .leafbuttonR{
     grid-row: 1;
     grid-column: 10/13;
     scale: 30%;
     cursor: pointer;
-    
+    z-index: 1;
 }
 .leafbuttonL{
     grid-row: 1;
@@ -48,6 +51,7 @@ div.shadowR{
     scale: 30%;
     -webkit-transform: scale(-1, 1);
     cursor: pointer;
+    z-index: 1;
 }
 .text1{
     text-align: center;
