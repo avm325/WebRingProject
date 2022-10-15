@@ -26,17 +26,12 @@ body{
 
 }
 .tree{
-    scale: 69%;
-    z-index: -1;
-    position: absolute;
-    top: -700px;
-    left: -90%;
+    z-index: -;
+    grid-row: 1;
     opacity: 90%;
-        display: grid;
-        height: 100%;
-        max-width: 100%;
-        max-height: 100vh;
-        margin: auto;
+        max-width: 50%;
+        grid-column: 1/13;
+        
 }
 .title{
     text-align: center;
@@ -60,7 +55,7 @@ body{
     scale: 30%;
     z-index: 1;
     text-align: center;
-    
+    cursor: pointer;
 }
 .text1{
     text-align: center;
