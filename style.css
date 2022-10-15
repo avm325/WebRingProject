@@ -143,6 +143,12 @@ body{
     background-color: azure;
     opacity: 40%;
 }
+.berries{
+    grid-row: 7;
+    grid-column: 1/6;
+    scale: 30%;
+}
+
 .leaf2{
     grid-row: 8;
     grid-column: 1/3;
