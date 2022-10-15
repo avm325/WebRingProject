@@ -1,19 +1,17 @@
 *{
     margin: 0;
 }
-.img{
-    max-width: 100%;
-}
+
 body{
     background: linear-gradient(#A9BD93,#9BEBA8,#9AC791,#71AB7A,#8ABD91);
 
 }
+
 .container{
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(8, 1fr);
-    justify-content: center;
-
+    overflow: hidden;
 }
 .homebutton{
     color: red;
@@ -26,11 +24,13 @@ body{
 
 }
 .tree{
-    z-index: -;
+    z-index: -3;
     grid-row: 1;
+    grid-column: 1/5;
     opacity: 90%;
-        max-width: 50%;
-        grid-column: 1/13;
+    scale: 80%;
+    top: 300px;
+ 
         
 }
 .title{
