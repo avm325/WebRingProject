@@ -52,8 +52,6 @@ body{
     grid-row: 1;
     grid-column: 1/4;
     scale: 30%;
-    transform: scale(-1, 1);
-    cursor: pointer;
     z-index: 1;
     
 }
@@ -147,18 +145,18 @@ body{
 }
 .leaf2{
     grid-row: 8;
-    grid-column: 1/6;
-    scale: 50%;
+    grid-column: 1/3;
+    scale: 20%;
 }
 .leaf3{
     grid-row: 8;
-    grid-column: 6/8;
+    grid-column: 4/6;
     scale: 50%;
 }
 .leaf4{
     grid-row: 8;
-    grid-column: 9/12;
-    scale: 50%;
+    grid-column: 9/11;
+    scale: 40%;
 }
 .text6{
     grid-row: 8;
