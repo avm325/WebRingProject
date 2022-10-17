@@ -111,7 +111,11 @@ img {
 }
 .leaf5{
     grid-row: 4;
-    grid-column: 4/6;
+    grid-column: 4/5;
+}
+.leaf6{
+    grid-row: 4;
+    grid-column: 5/6;
 }
 footer{
     position: bottom;
