@@ -79,6 +79,13 @@ img {
     text-align: center;
 }
 
+.text1, .text2,.text3,.text4,.text5,.text6{
+    grid-column: 2/5;
+    font-size: 30;
+    text-align: center;
+    color: white;
+}
+
 .text{
    padding-top: 230px;
     text-align: center;
@@ -194,7 +201,7 @@ h1{
       background-color: #8ABD91;
     }
     p{
-        font-size: 30%;
+        font-size: 90%;
     }
     .title{
         font-size: 1.6em;
