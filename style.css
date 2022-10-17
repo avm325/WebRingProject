@@ -208,7 +208,7 @@ h1{
       background-color: #8ABD91;
     }
     .previous, .next{
-        padding-top: 100px;
+        padding-top: 250px;
     }
     .previous{
         grid-column: 2/3;
