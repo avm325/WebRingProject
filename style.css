@@ -168,7 +168,7 @@ footer{
     justify-content: center;
 }
 p{
-    color: red;
+    color: white;
     font-size: 25px;
     text-align: center;
 }
@@ -186,10 +186,11 @@ h2{
 }
 
 h1{
-    font-family: mina, serif;
-    font-weight: 600;
-    font-style: italic;
-    color: white;
+    font-family: fiora-monograms,sans-serif;
+    font-size: 120px;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(165, 46, 20);;
 
 }
 
