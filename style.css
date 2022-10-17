@@ -36,8 +36,8 @@ img {
 }
 
     a {
-        -webkit-transition: color 2s;
-        transition: color 2s;
+        -webkit-transition: color 1.5s;
+        transition: color 1.5s;
         cursor: pointer;
     }
     a:link { 
@@ -96,25 +96,63 @@ img {
  /* .text::-webkit-scrollbar {
     display: none;} */
 
+.ladybugR{
+    grid-row: 2;
+    grid-column: 5/6;
+}
+.ladybugL{
+    grid-row: 2;
+    grid-column: 1/2;
+}
+.bee{
+    grid-row: 2;
+    grid-column: 1/2;
+}
+
+.berries{
+    grid-row: 3;
+    grid-column: 5;
+}
+.berries2{
+    grid-row: 4;
+    rotate: 50deg;
+    scale: 150%;
+    
+}
+
+.shell1{
+    grid-row: 4;
+    grid-column: 2;
+}
+
+.shell2{
+    grid-row: 4;
+    grid-column: 3;
+}
+
+.shell3{
+    grid-row: 4;
+    grid-column: 4;
+}
 
 .leaf2{
-    grid-row: 4;
+    grid-row: 6;
     grid-column: 2/3;
 }    
 .leaf3{
-    grid-row: 4;
+    grid-row: 6;
     grid-column: 1/2;
 }
 .leaf4{
-    grid-row: 4;
+    grid-row: 6;
     grid-column: 3/4;
 }
 .leaf5{
-    grid-row: 4;
+    grid-row: 6;
     grid-column: 4/5;
 }
 .leaf6{
-    grid-row: 4;
+    grid-row: 6;
     grid-column: 5/6;
 }
 footer{
