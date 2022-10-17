@@ -63,7 +63,7 @@ img {
     grid-column: 1/6;
     text-align: center;
     font-size: 1.55em;
-    padding-top: 9em;
+    padding-top: 12em;
 }
 
 .previous{
@@ -71,12 +71,14 @@ img {
     grid-column: 1/2;
     padding-top: 15em;
     text-align: center;
+    scale: 80%;
 }
 .next{
     grid-row: 1;
     grid-column: 5/6;
     padding-top: 15em;
     text-align: center;
+    scale: 80%;
 }
 
 .text1, .text2,.text3,.text4,.text5,.text6{
@@ -202,6 +204,15 @@ h1{
     }
     body {
       background-color: #8ABD91;
+    }
+    .previous, .next{
+        padding-top: 100px;
+    }
+    .previous{
+        grid-column: 2/3;
+    }
+    .next{
+        grid-column: 3/4;
     }
     p{
         font-size: 90%;
