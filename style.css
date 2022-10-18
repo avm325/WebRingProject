@@ -9,8 +9,10 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(9, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     overflow: hidden; 
+    grid-template-rows: fit-content(8ch) fit-content(8ch) 1fr;
+
 }
 img {
     max-width: 100%;
@@ -127,12 +129,7 @@ background-color: blue;
 }
 .text6{
     grid-row: 9;
-}
-.text{
-   padding-top: 230px;
-    text-align: center;
-    grid-row: 2/7;
-    grid-column: 2/5;
+    padding-top: 80px;
 }
 
 .ladybugR{
@@ -282,8 +279,28 @@ h1{
         padding-left: 20px;
         padding-right: 20px;
     }
-    p{
-        font-size: 90%;
+    .wildflower{
+        grid-row: 7;
+        grid-column: 1;
+    }
+    .wildflower3{
+        grid-row: 7;
+        grid-column: 3;
+        padding-top: 15px;
+    }
+    .wildflowerR{
+        grid-row: 7;
+        grid-column:5;
+        padding-top: 0;
+    }
+    .text5{
+        grid-row: 8;
+    }
+    .leaf2,.leaf3,.leaf4,.leaf5,.leaf6{
+        grid-row: 9;
+    }
+    .text6{
+        grid-row: 10;
     }
     .title{
         font-size: 1.6em;
@@ -296,20 +313,13 @@ h1{
         font-weight: 500;
         grid-template-rows: fit-content(8ch) fit-content(8ch) 1fr;
     }
-    .leaff,.leaff2{
-        padding-top: 50px;
-    }
-    table {
-        border-spacing: 38px;
-      }
-    .bee,.berries,.berries2,.ladybugL,.ladybugR,.wildflower,.wildflower2,.wildflower3,.wildflowerR{
+    
+   
+    .bee,.berries,.berries2,.ladybugL,.ladybugR,.wildflower2{
          display: none;   
     }
-    .text{
-        grid-column: 1/6;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+
+    p{font-size: 90%;}
     h4{font-size: 14pt;}
     h2{font-size: 16px;}
     h3{font-size: 30px;}
