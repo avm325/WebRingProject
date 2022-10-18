@@ -167,8 +167,10 @@ grid-row: 2;
 }
 footer{
     position: bottom;
-    background-color:rgb(125, 58, 30);
+    background-color: rgb(141, 27, 14);
     justify-content: center;
+    font-family:Courier, monospace;
+    font-size: 20pt;
 }
 p{
     color: white;
