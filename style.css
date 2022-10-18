@@ -4,7 +4,7 @@
 html{ scroll-behavior: smooth;}
 
 body{
-    background: linear-gradient(#8ABD91,#9AC791,#8ABD91,#71AB7A);
+    background: linear-gradient(#9AC791,#97c58f,#8ABD91,#8ABD91,#75aa7d,#549f5e);
 }
 .container{
     display: grid;
@@ -89,7 +89,7 @@ img {
     grid-column: 2/5;
     font-size: 30;
     text-align: center;
-    /* color: white; */
+
 }
 .text1{
 grid-row: 2;
