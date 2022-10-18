@@ -91,6 +91,7 @@ img {
 }
 .text1{
 grid-row: 2;
+background-color: blue;
 }
 .text2{
     grid-row: 3;
@@ -166,6 +167,7 @@ grid-row: 2;
 .shell1,.shell2,.shell3,.shell4,.shell5{
     grid-row: 5;
     scale: 70%; 
+    background-color: blue;
 }
 
 .leaf2{
@@ -195,7 +197,7 @@ footer{
     font-size: 20pt;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     overflow: hidden; 
 }
 .leaff{
@@ -265,6 +267,8 @@ h1{
 @media (max-width: 600px) {
     .container{
         overflow: clip; 
+        grid-row-gap: 1px;
+        grid-template-rows: fit-content(8ch) fit-content(8ch) 1fr;
     }
     body {
       background-color: #8ABD91;
