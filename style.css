@@ -154,7 +154,7 @@ grid-row: 2;
 }
 .leaf4{
     grid-row: 8;
-    grid-column: 3/4;
+    grid-column: 5/6;
 }
 .leaf5{
     grid-row: 8;
@@ -162,8 +162,7 @@ grid-row: 2;
 }
 .leaf6{
     grid-row: 8;
-    grid-column: 5/6;
-    scale: 90%;
+    grid-column: 3/4;
 }
 footer{
     position: bottom;
