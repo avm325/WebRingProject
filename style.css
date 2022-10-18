@@ -222,6 +222,11 @@ h1{
     .next{
         grid-column: 4;
     }
+    .text1, .text2,.text3,.text4,.text5,.text6{
+        grid-column: 1/6;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     p{
         font-size: 90%;
     }
@@ -235,6 +240,9 @@ h1{
         font-size: 15pt;
         font-family: Courier, 'Courier New', monospace;
         font-weight: 500;
+    }
+    .leaff{
+         display: none;   
     }
     .text{
         grid-column: 1/6;
