@@ -115,15 +115,17 @@ grid-row: 2;
 
 .ladybugR{
     grid-row: 2;
-    grid-column: 5/6;
+    grid-column: 5;
+    scale: 60%;
 }
 .ladybugL{
     grid-row: 2;
-    grid-column: 1/2;
+    grid-column: 2;
+    scale: 40%;
 }
 .bee{
     grid-row: 2;
-    grid-column: 1/2;
+    grid-column: 1;
 }
 
 .berries{
@@ -141,14 +143,6 @@ grid-row: 2;
     grid-row: 5;
     scale: 70%; 
 }
-/* .shell2{
-    grid-row: 5;
-    grid-column: 4;
-}
-.shell3{
-    grid-row: 5;
-    grid-column: 3;
-} */
 
 .leaf2{
     grid-row: 8;
@@ -190,18 +184,22 @@ h4{
     text-align: center;
     font-family: Courier, 'Courier New', monospace;
 }
+h3{
+    font-family: fiora-monograms,sans-serif;
+    color: rgb(141, 27, 14);
+font-size: 30pt;
+}
 h2{
     text-align: center;
     font-family: Courier, 'Courier New', monospace;
     font-size: 25px;
 }
-
 h1{
     font-family: fiora-monograms,sans-serif;
     font-size: 120px;
     font-weight: 500;
     font-style: normal;
-    color: rgb(165, 46, 20);
+    color: rgb(175, 34, 18);
     text-align: center;
     line-height: 95px;
 
