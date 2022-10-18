@@ -101,6 +101,25 @@ grid-row: 2;
 .text4{
     grid-row: 6;
 }
+.wildflower{
+    grid-row: 6;
+    grid-column: 1/2;
+}
+.wildflower2{
+    grid-row: 6;
+    grid-column: 5/6;
+}
+.wildflower3{
+    grid-row: 6;
+    grid-column: 1;
+    padding-top: 300px;
+}
+.wildflowerR{
+    grid-row: 6;
+    grid-column: 5;
+    padding-top: 200px;
+    transform: scale(-1, 1);
+}
 .text5{
     grid-row: 7;
     padding-bottom: 80px;
@@ -122,12 +141,15 @@ grid-row: 2;
 }
 .ladybugL{
     grid-row: 2;
-    grid-column: 2;
+    grid-column: 1;
     scale: 40%;
+    transform: scale(-1, 1);
 }
 .bee{
     grid-row: 2;
     grid-column: 1;
+    rotate: 20deg;
+    scale: 70%;
 }
 
 .berries{
@@ -281,7 +303,7 @@ h1{
     table {
         border-spacing: 38px;
       }
-    .bee,.berries,.berries2,.ladybugL,.ladybugR{
+    .bee,.berries,.berries2,.ladybugL,.ladybugR,.wildflower,.wildflower2,.wildflower3,.wildflowerR{
          display: none;   
     }
     .text{
