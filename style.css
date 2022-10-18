@@ -7,7 +7,7 @@ body{
 .container{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(9, 1fr);
     overflow: hidden; 
 }
 img {
@@ -97,13 +97,13 @@ grid-row: 2;
     grid-row: 4;
 }
 .text4{
-    grid-row: 5;
-}
-.text5{
     grid-row: 6;
 }
-.text6{
+.text5{
     grid-row: 7;
+}
+.text6{
+    grid-row: 8;
 }
 .text{
    padding-top: 230px;
@@ -136,20 +136,19 @@ grid-row: 2;
     rotate: 180deg; 
 }
 
-.shell1{
+.shell1,.shell2,.shell3,.shell4,.shell5{
     grid-row: 5;
-    grid-column: 2;
+    scale: 70%; 
 }
-
-.shell2{
+/* .shell2{
     grid-row: 5;
     grid-column: 4;
 }
-
 .shell3{
     grid-row: 5;
     grid-column: 3;
-}
+} */
+
 
 .leaf2{
     grid-row: 6;
